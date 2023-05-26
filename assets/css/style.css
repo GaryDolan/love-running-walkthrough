@@ -11,8 +11,7 @@ body {
     color: #3a3a3a;
 }
 
-/*headings and logos*/
-
+/*********************************************** HEADINGS AND LOGOS ***********************************************/
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -24,7 +23,7 @@ h1, h2 {
     font-size: 280%;
     margin-left: 30px;
 }
-
+/************************************************ NAVAGATION LINKS ************************************************/
 /*navigation links*/
 #menu {
     float: right;           /*floated whole menu right then list items left below to stop order of menu reversing*/
@@ -55,7 +54,7 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Hero Image */
+/*************************************************** HERO IMAGE ***************************************************/
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -108,8 +107,7 @@ h1, h2 {
 
     position: absolute;
 }
-
-/* Club Ethos */
+/*************************************************** CLUB ETHOS ***************************************************/
 
 #club-ethos {
     height: 600px;
@@ -177,7 +175,7 @@ hr {
     border-radius: 50% ;
 }
 
-/* event times */
+/*************************************************** EVENT TIMES ***************************************************/
 #times{
     background: url('../images/dublin-city.webp') center center no-repeat ;
     background-size: cover;
@@ -220,7 +218,7 @@ hr {
     color: #3a3a3a;
 }
 
-/* gallery */
+/***************************************************** GALLERY *****************************************************/
 #photos {
     clear: both; /*stops section overlapping on header*/
     line-height: 0; /*removes horizontal line between imgs*/
@@ -258,11 +256,19 @@ hr {
         padding: 0;
     }
 
+    #times > div {
+        width: 100%;
+        clear: both;
+        height:150px;
+        padding: 0;
+    }
+
     hr {
         display: none;
     }
 }
 
+/************************************************ RESPONSIVE DESIGN ************************************************/
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
     #menu {
