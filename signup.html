@@ -32,7 +32,24 @@
         </nav>
     </header>
     <section class="form-section">
+        <form action="https://formdump.codeinstitute.net/" method="POST">
+            <h2>Let's get you signed up!</h2>
 
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" required>
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" required>
+            <label for="email">Email Address</label>
+            <input id="email" name="email_address" type="email" required>
+            <label for="road">Road</label>
+            <input id="road" name="running_preference" type="radio" value="road" required>
+            <label for="trail">Trail</label>
+            <input id="trail" name="running_preference" type="radio" value="trail" required>
+            <label for="both">Both</label>
+            <input id="both" name="running_preference" type="radio" value="both" required>
+            
+            <input id="submit" name="submit" type="submit" value="Let's Run!" required>
+        </form>
     </section>
     <footer>
         <ul class="social-networks">
